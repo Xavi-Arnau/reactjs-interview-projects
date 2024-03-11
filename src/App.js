@@ -1,4 +1,5 @@
 import Accordion from "./components/accordion";
+import ModalTest from "./components/custom-modal-popup/modal-test";
 import TabTest from "./components/custom-tabs";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
@@ -12,7 +13,7 @@ import menus from "./components/tree-view/data";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       {/*<Accordion />*/}
       {/*<RandomColor />*/}
       {/*<StarRating noOfStars={10} />*/}
@@ -26,7 +27,8 @@ function App() {
       {/*<QRCodeGenerator />*/}
       {/*<LightDarkMode />*/}
       {/*<ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />*/}
-      <TabTest />
+      {/*<TabTest />*/}
+      <ModalTest />
     </div>
   );
 }
