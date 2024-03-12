@@ -15,6 +15,8 @@ import StarRating from "./components/star-rating";
 import TicTacToe from "./components/tic-tac-toe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
+import UseFetchHookTest from "./components/use-Fetch/test";
+import UseOnClickOutsideTest from "./components/use-outside-click/test";
 
 function App() {
   return (
@@ -37,9 +39,12 @@ function App() {
       {/*<GithubProfileFinder />*/}
       {/*<SearchAutocomplete />*/}
       {/*<TicTacToe />*/}
-      <FeatureFlagGlobalState>
+      {/*<FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState>
+</FeatureFlagGlobalState>*/}
+
+      {/*<UseFetchHookTest />*/}
+      <UseOnClickOutsideTest />
     </div>
   );
 }
